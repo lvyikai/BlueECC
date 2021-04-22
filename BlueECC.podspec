@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.module_name  = 'CryptorECC'
   s.requires_arc = true
   s.osx.deployment_target = "10.13"
-  s.ios.deployment_target = "11.0"
+  s.ios.deployment_target = "9.0"
   s.tvos.deployment_target = "11.0"
   s.watchos.deployment_target = "4.0"
   s.source   = { :git => "https://github.com/IBM-Swift/BlueECC.git", :tag => s.version }
